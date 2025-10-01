@@ -152,3 +152,6 @@ for i in range(5):
 questão 21'''
 
 print(sum(range(2, 51, 2)))
+
+
+print( " teste")
