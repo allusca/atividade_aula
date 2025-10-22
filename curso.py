@@ -1,4 +1,4 @@
-'''questão 1
+questão 1
 
 for i in range(1, 11):
     print(i)
@@ -149,9 +149,54 @@ for i in range(5):
     print("maior nome: ", maior)
     
 
-questão 21'''
+questão 21
+
+
+for i in range(10, 0, -1):
+    print(i)
+
+questão 22
+
+maior = max([input("nome: ") for _ in range(5)], key=len)
+print(maior)
+
+questão 23
 
 print(sum(range(2, 51, 2)))
 
+questão 24
 
-print( " teste")
+n = int(input("digite um numero: "))
+print([i for i in range(1, n+1) if n % i == 0])
+
+questão 25
+
+print(sum(int(input("idade: ")) >= 18 for _ in range(5)))
+
+questão 26
+
+frase = input("frase: ")
+print(frase.count("a"))
+
+questão 27
+
+a, b = 0, 1
+for _ in range(10):
+    print(a); a, b = b, a + b
+    
+questão 28
+
+impares = [n for n in [int(input("n: ")) for _ in range(5)] if n % 2 != 0]
+print(max(impares) if impares else "Nenhum ímpar foi digitado")
+
+questão 29
+
+for i in range(100, 49, -1):
+    print(i)
+    
+questão 30
+
+print(sum(int(input("n: ")) < 0 for _ in range(10)))
+
+
+multiplicação
